@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const intialState = {
+const initialState = {
   isLoggedIn: localStorage.getItem("isLoggedIn") || false,
   role: localStorage.getItem("role") || "",
   data: localStorage.getItem("data") || {},
@@ -8,7 +8,7 @@ const intialState = {
 
 const authSlice = createSlice({
   name: "auth",
-  intialState,
+  initialState,
   reducers: {},
 });
 
