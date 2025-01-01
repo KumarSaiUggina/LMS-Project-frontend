@@ -25,3 +25,8 @@
 ```
     npm run dev
 ```
+
+
+### TailwindCss Setup
+
+[TailwindCSS official setup instructions](https://tailwindcss.com/docs/installation)
